@@ -1,12 +1,6 @@
 import React, { useState } from 'react';
 import './App.css'
-// import katty from "./assets/katty.jpeg";
 
-
-
-// const internimages ={
-//  1: katty,
-// };
 
 const Intern = ({ name, picture, info, overallGrade, assignments }) => {
   const [showDetails, setShowDetails] = useState(false);
@@ -27,7 +21,7 @@ const Intern = ({ name, picture, info, overallGrade, assignments }) => {
           <div style={{ width: `${overallGrade * 10}%` }}></div>
         </div>
       </div>
-      <button onClick={toggleDetails}>
+      <button className='show-btn' onClick={toggleDetails}>
         {showDetails ? 'Hide Details' : 'Show Assignments'}
       </button>
       {showDetails && (

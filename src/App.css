@@ -33,13 +33,26 @@ body{
   margin: 2rem;
 }
 .assignment{
-  font-size: 1rem;
-  font-weight: 400;
-  color: aquamarine;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: rgb(35, 37, 36);
 }
 .intern-cards{
   display: flex;
   flex-direction: column;
   flex-grow: inherit;
 
+}
+.show-btn{
+  margin: .8rem;
+  padding: .4rem;
+  font-size: medium;
+  border: 0;
+  color: rgba(200, 31, 31, 0.376);
+  border-radius: 2rem;
+}
+.intern-picture{
+  border-radius: 2rem;
+  width: 17rem;
 }

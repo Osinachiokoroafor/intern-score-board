@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-size: 100%;
+  color: white;
+  
+  text-align: center;
+  background-color: #312C;
+}
+.app{
+  width: 100%;
+  padding: 4rem 3rem ;
+}
+
+.input{
+  background-color: #e5e8f1;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: rgb(109, 100, 100) .1rem solid;
+  margin: 2rem;
+}
+.sort{
+  background-color: #e5e8f1;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: rgb(109, 100, 100) .1rem solid;
+  margin: 2rem;
+}
+.assignment{
+  font-size: 1rem;
+  font-weight: 400;
+  color: aquamarine;
+}
+.intern-cards{
+  display: flex;
+  flex-direction: column;
+  flex-grow: inherit;
+
+}

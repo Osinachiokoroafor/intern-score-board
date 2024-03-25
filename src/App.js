@@ -44,7 +44,7 @@ const InternTracker = () => {
   const [interns] = useState([
     {
       name: 'Osinachi',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg.',
       info: 'Frontend Intern',
       overallGrade: 99.5,
       assignments: [
@@ -54,7 +54,7 @@ const InternTracker = () => {
     },
     {
       name: 'Khalifa Bin zaheed',
-      picture: 'https://via.placeholder.com/150',
+      picture: 'public/assets/khalifa.jpg',
       info: 'Frontend intern',
       overallGrade: 92,
       assignments: [
@@ -64,7 +64,7 @@ const InternTracker = () => {
     },
      {
     name: 'Asante',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg', 
       info: 'Frontend Intern',
       overallGrade: 15,
       assignments: [
@@ -74,7 +74,7 @@ const InternTracker = () => {
     },
     {
       name: 'Benjamin',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/', 
       info: 'Frontend Intern',
       overallGrade: 72,
       assignments: [
@@ -84,7 +84,7 @@ const InternTracker = () => {
     },
     {
       name: 'Ella',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg.', 
       info: 'Frontend intern',
       overallGrade: 100,
       assignments: [
@@ -94,7 +94,7 @@ const InternTracker = () => {
     },
      {
     name: 'Chisom',
-      picture: 'https://via.placeholder.com/150', 
+      picture: '/public/assets/', 
       info: 'Frontend Intern',
       overallGrade: 99,
       assignments: [
@@ -104,7 +104,7 @@ const InternTracker = () => {
     },
     {
       name: 'Adora',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg.', 
       info: 'Frontend Intern',
       overallGrade: 89,
       assignments: [
@@ -114,7 +114,7 @@ const InternTracker = () => {
     },
     {
       name: 'Chizzy',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg.', 
       info: 'Frontend intern',
       overallGrade: 95,
       assignments: [
@@ -124,7 +124,7 @@ const InternTracker = () => {
     },
      {
     name: 'Nmesoma',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg.', 
       info: 'Frontend Intern',
       overallGrade: 30,
       assignments: [
@@ -134,7 +134,7 @@ const InternTracker = () => {
     },
     {
       name: 'Shino',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg.',
       info: 'Frontend Intern',
       overallGrade: 85,
       assignments: [
@@ -144,7 +144,7 @@ const InternTracker = () => {
     },
     {
       name: 'Oyibo',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg.', 
       info: 'Frontend intern',
       overallGrade: 92,
       assignments: [
@@ -154,7 +154,7 @@ const InternTracker = () => {
     },
      {
     name: 'Smart',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg.',
       info: 'Frontend Intern',
       overallGrade: 85,
       assignments: [
@@ -164,7 +164,7 @@ const InternTracker = () => {
     },
     {
       name: 'Kathy',
-      picture: './images/katty.jpeg', 
+      picture: 'public/assets/katty.jpeg.',
       info: 'Frontend Intern',
       overallGrade: 60,
       assignments: [
@@ -174,7 +174,7 @@ const InternTracker = () => {
     },
     {
       name: 'Mobility',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg.', 
       info: 'Frontend intern',
       overallGrade: 92,
       assignments: [
@@ -184,7 +184,7 @@ const InternTracker = () => {
     },
      {
     name: 'Commrade',
-      picture: 'https://via.placeholder.com/150', 
+      picture: 'public/assets/katty.jpeg.', 
       info: 'Frontend Intern',
       overallGrade: 85,
       assignments: [

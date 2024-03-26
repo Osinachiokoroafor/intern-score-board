@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css'
 
-
 const Intern = ({ name, picture, info, overallGrade, assignments }) => {
   const [showDetails, setShowDetails] = useState(false);
 
@@ -44,7 +43,7 @@ const InternTracker = () => {
   const [interns] = useState([
     {
       name: 'Osinachi',
-      picture: 'public/assets/katty.jpeg.',
+      picture: '/public/assets/nwa na nma.jpg',
       info: 'Frontend Intern',
       overallGrade: 99.5,
       assignments: [
@@ -54,7 +53,7 @@ const InternTracker = () => {
     },
     {
       name: 'Khalifa Bin zaheed',
-      picture: 'public/assets/khalifa.jpg',
+      picture: '/public/assets/khalifa.jpg',
       info: 'Frontend intern',
       overallGrade: 92,
       assignments: [
@@ -64,7 +63,7 @@ const InternTracker = () => {
     },
      {
     name: 'Asante',
-      picture: 'public/assets/katty.jpeg', 
+      picture: 'public/assets/fine lady.jpg', 
       info: 'Frontend Intern',
       overallGrade: 15,
       assignments: [
@@ -74,7 +73,7 @@ const InternTracker = () => {
     },
     {
       name: 'Benjamin',
-      picture: 'public/assets/', 
+      picture: 'public/assets/khalifa.jpg', 
       info: 'Frontend Intern',
       overallGrade: 72,
       assignments: [
@@ -84,7 +83,7 @@ const InternTracker = () => {
     },
     {
       name: 'Ella',
-      picture: 'public/assets/katty.jpeg.', 
+      picture: 'public/assets/baby baby.jpg', 
       info: 'Frontend intern',
       overallGrade: 100,
       assignments: [
@@ -94,7 +93,7 @@ const InternTracker = () => {
     },
      {
     name: 'Chisom',
-      picture: '/public/assets/', 
+      picture: 'public/assets/okeuche.jpg', 
       info: 'Frontend Intern',
       overallGrade: 99,
       assignments: [
@@ -104,7 +103,7 @@ const InternTracker = () => {
     },
     {
       name: 'Adora',
-      picture: 'public/assets/katty.jpeg.', 
+      picture: 'public/assets/okeuche.jpg', 
       info: 'Frontend Intern',
       overallGrade: 89,
       assignments: [
@@ -114,7 +113,7 @@ const InternTracker = () => {
     },
     {
       name: 'Chizzy',
-      picture: 'public/assets/katty.jpeg.', 
+      picture: '/public/assets/lp.jpg', 
       info: 'Frontend intern',
       overallGrade: 95,
       assignments: [
@@ -124,7 +123,7 @@ const InternTracker = () => {
     },
      {
     name: 'Nmesoma',
-      picture: 'public/assets/katty.jpeg.', 
+      picture: 'public/assets/champion.jpg', 
       info: 'Frontend Intern',
       overallGrade: 30,
       assignments: [
@@ -134,7 +133,7 @@ const InternTracker = () => {
     },
     {
       name: 'Shino',
-      picture: 'public/assets/katty.jpeg.',
+      picture: 'public/assets/champion.jpg',
       info: 'Frontend Intern',
       overallGrade: 85,
       assignments: [
@@ -144,7 +143,7 @@ const InternTracker = () => {
     },
     {
       name: 'Oyibo',
-      picture: 'public/assets/katty.jpeg.', 
+      picture: 'public/assets/mg.jpg', 
       info: 'Frontend intern',
       overallGrade: 92,
       assignments: [
@@ -154,7 +153,7 @@ const InternTracker = () => {
     },
      {
     name: 'Smart',
-      picture: 'public/assets/katty.jpeg.',
+      picture: '/public/assets/khalifa.jpg',
       info: 'Frontend Intern',
       overallGrade: 85,
       assignments: [
@@ -164,7 +163,7 @@ const InternTracker = () => {
     },
     {
       name: 'Kathy',
-      picture: 'public/assets/katty.jpeg.',
+      picture: '/public/assets/mg.jpg',
       info: 'Frontend Intern',
       overallGrade: 60,
       assignments: [
@@ -174,7 +173,7 @@ const InternTracker = () => {
     },
     {
       name: 'Mobility',
-      picture: 'public/assets/katty.jpeg.', 
+      picture: 'public/assets/khalifa.jpg', 
       info: 'Frontend intern',
       overallGrade: 92,
       assignments: [
@@ -184,7 +183,7 @@ const InternTracker = () => {
     },
      {
     name: 'Commrade',
-      picture: 'public/assets/katty.jpeg.', 
+      picture: 'public/assets/lp.jpg', 
       info: 'Frontend Intern',
       overallGrade: 85,
       assignments: [
@@ -230,8 +229,8 @@ const InternTracker = () => {
         onChange={handleSearchChange}
       />
       <select className="sort" value={sortCriteria} onChange={handleSortChange}>
+      <option value="overallGrade">Sort by Overall Grade (Desc)</option>
         <option value="name">Sort by Name</option>
-        <option value="overallGrade">Sort by Overall Grade (Desc)</option>
       </select>
       <div className="intern-cards">
         {sortedInterns.map((intern) => (

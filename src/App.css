@@ -39,8 +39,11 @@ body{
   color: rgb(35, 37, 36);
 }
 .intern-cards{
-  display: flex;
-  flex-direction: column;
+  margin-top: 40px;
+  display: grid;
+  flex-wrap: wrap;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr  ;
   flex-grow: inherit;
 
 }
@@ -54,5 +57,5 @@ body{
 }
 .intern-picture{
   border-radius: 2rem;
-  width: 17rem;
+  width: 14rem;
 }

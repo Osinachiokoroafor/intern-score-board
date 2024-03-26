@@ -230,7 +230,7 @@ const InternTracker = () => {
       />
       <select className="sort" value={sortCriteria} onChange={handleSortChange}>
       <option value="overallGrade">Sort by Overall Grade (Desc)</option>
-        <option value="name">Sort by Name</option>
+      <option value="name">Sort by Name</option>
       </select>
       <div className="intern-cards">
         {sortedInterns.map((intern) => (
